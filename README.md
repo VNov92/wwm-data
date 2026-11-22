@@ -2,7 +2,7 @@
 
 Kho dữ liệu tĩnh và bộ thu thập tự động (self-healing crawler) phục vụ cập nhật **Giftcode** và **Ghi chú bản vá (Patch Notes)** tiếng Việt cho ứng dụng Where Winds Meet.
 
-Dữ liệu đầu ra được lưu tại `data/codes.json` và `data/patch.json` theo định dạng `schema_version: 1`, tự động cập nhật định kỳ mỗi 6 giờ qua GitHub Actions.
+Dữ liệu đầu ra được lưu tại `data/codes.json` và `data/patch.json` theo định dạng `schema_version: 1`, tự động cập nhật mỗi ngày 1 lần lúc 02:00 sáng (giờ VN, 19:00 UTC) qua GitHub Actions.
 
 ---
 
