@@ -1,0 +1,1433 @@
+{
+  "schema_version": 1,
+  "health": {
+    "status": "ok",
+    "last_attempt_at": "2026-11-22T02:37:40Z",
+    "last_success_at": "2026-11-22T02:37:40Z",
+    "sources": [
+      {
+        "name": "codes.yar.gg",
+        "tier": "api",
+        "result": "ok",
+        "message": "ok"
+      }
+    ]
+  },
+  "items": [
+    {
+      "code": "ANNDDWJWYTQ",
+      "reward_text": null,
+      "added_at": "2026-11-21T16:45:05.176Z"
+    },
+    {
+      "code": "ANN6JC7QMY3",
+      "reward_text": null,
+      "added_at": "2026-11-21T16:45:05.176Z"
+    },
+    {
+      "code": "ANNMDWHCYEF",
+      "reward_text": null,
+      "added_at": "2026-11-21T12:34:47.955Z"
+    },
+    {
+      "code": "ANN7XFHJF7J",
+      "reward_text": null,
+      "added_at": "2026-11-21T10:13:59.770Z"
+    },
+    {
+      "code": "ANN43EKR7RJ",
+      "reward_text": null,
+      "added_at": "2026-11-20T13:44:06.732Z"
+    },
+    {
+      "code": "ANNRR6CH8C7",
+      "reward_text": null,
+      "added_at": "2026-11-20T13:25:12.681Z"
+    },
+    {
+      "code": "ANNETT4JTTQ",
+      "reward_text": null,
+      "added_at": "2026-11-20T12:13:01.674Z"
+    },
+    {
+      "code": "ANNQNDRMCXW",
+      "reward_text": null,
+      "added_at": "2026-11-20T09:51:00.950Z"
+    },
+    {
+      "code": "ANNKWHD434P",
+      "reward_text": null,
+      "added_at": "2026-11-20T09:51:00.936Z"
+    },
+    {
+      "code": "ANNKPDHF3TD",
+      "reward_text": null,
+      "added_at": "2026-11-20T09:33:26.114Z"
+    },
+    {
+      "code": "ANNHDTWCX67",
+      "reward_text": null,
+      "added_at": "2026-11-19T14:46:48.179Z"
+    },
+    {
+      "code": "ANNTKP3AXJQ",
+      "reward_text": null,
+      "added_at": "2026-11-19T09:46:14.065Z"
+    },
+    {
+      "code": "ANNJYAERJ6D",
+      "reward_text": null,
+      "added_at": "2026-11-19T09:46:12.472Z"
+    },
+    {
+      "code": "ANNDWD4KTE8",
+      "reward_text": null,
+      "added_at": "2026-11-19T05:00:02.620Z"
+    },
+    {
+      "code": "ANNRCR86EF7",
+      "reward_text": null,
+      "added_at": "2026-11-19T05:00:00.834Z"
+    },
+    {
+      "code": "ANNPCECNJ6T",
+      "reward_text": null,
+      "added_at": "2026-11-18T18:19:41.755Z"
+    },
+    {
+      "code": "ANN4DAT3KK3",
+      "reward_text": null,
+      "added_at": "2026-11-17T17:04:29.776Z"
+    },
+    {
+      "code": "ANNNJDQ7RKT",
+      "reward_text": null,
+      "added_at": "2026-11-17T16:53:34.567Z"
+    },
+    {
+      "code": "ANNFQPHK7P8",
+      "reward_text": null,
+      "added_at": "2026-11-17T16:50:39.300Z"
+    },
+    {
+      "code": "ANNC6F88PER",
+      "reward_text": null,
+      "added_at": "2026-11-17T16:50:38.913Z"
+    },
+    {
+      "code": "ANNCTPNRF8W",
+      "reward_text": null,
+      "added_at": "2026-11-17T16:50:35.374Z"
+    },
+    {
+      "code": "ANNQT74EFXC",
+      "reward_text": null,
+      "added_at": "2026-11-17T01:55:35.793Z"
+    },
+    {
+      "code": "ANNHKMPMQQY",
+      "reward_text": null,
+      "added_at": "2026-11-16T19:32:36.725Z"
+    },
+    {
+      "code": "ANNP8H88PHX",
+      "reward_text": null,
+      "added_at": "2026-11-16T19:32:36.463Z"
+    },
+    {
+      "code": "ANN6RCNQJ4Y",
+      "reward_text": null,
+      "added_at": "2026-11-16T19:32:32.156Z"
+    },
+    {
+      "code": "ANN7N8DP4P3",
+      "reward_text": null,
+      "added_at": "2026-11-16T18:52:10.746Z"
+    },
+    {
+      "code": "ANNCTYMNX7J",
+      "reward_text": null,
+      "added_at": "2026-11-16T18:50:59.181Z"
+    },
+    {
+      "code": "ANNKDWDMRX3",
+      "reward_text": null,
+      "added_at": "2026-11-16T17:51:59.417Z"
+    },
+    {
+      "code": "ANNCN78X7TW",
+      "reward_text": null,
+      "added_at": "2026-11-16T17:51:59.315Z"
+    },
+    {
+      "code": "ANNCXFTTD4T",
+      "reward_text": null,
+      "added_at": "2026-11-16T04:44:15.740Z"
+    },
+    {
+      "code": "ANNFM8D776A",
+      "reward_text": null,
+      "added_at": "2026-11-16T03:22:52.190Z"
+    },
+    {
+      "code": "ANNQ3NTEWQ8",
+      "reward_text": null,
+      "added_at": "2026-11-16T03:14:39.080Z"
+    },
+    {
+      "code": "ANNPTKR4DEE",
+      "reward_text": null,
+      "added_at": "2026-11-16T03:05:15.712Z"
+    },
+    {
+      "code": "ANN7PFW7HXJ",
+      "reward_text": null,
+      "added_at": "2026-11-15T23:49:53.081Z"
+    },
+    {
+      "code": "ANNFQYEXW3T",
+      "reward_text": null,
+      "added_at": "2026-11-15T23:49:53.018Z"
+    },
+    {
+      "code": "ANNME3WKTFF",
+      "reward_text": null,
+      "added_at": "2026-11-15T23:49:52.785Z"
+    },
+    {
+      "code": "ANNR7TCN7CF",
+      "reward_text": null,
+      "added_at": "2026-11-15T23:49:52.748Z"
+    },
+    {
+      "code": "ANNKRCCAPTP",
+      "reward_text": null,
+      "added_at": "2026-11-15T23:49:52.729Z"
+    },
+    {
+      "code": "ANNK4TMYHRY",
+      "reward_text": null,
+      "added_at": "2026-11-15T23:49:52.729Z"
+    },
+    {
+      "code": "ANNEH4ACHH3",
+      "reward_text": null,
+      "added_at": "2026-11-15T23:49:52.723Z"
+    },
+    {
+      "code": "WWM1114PARTY",
+      "reward_text": null,
+      "added_at": "2026-11-15T22:52:16.566Z"
+    },
+    {
+      "code": "ANNKQ7Q7H68",
+      "reward_text": null,
+      "added_at": "2026-11-15T16:16:14.437Z"
+    },
+    {
+      "code": "ANN3RRDK3TW",
+      "reward_text": null,
+      "added_at": "2026-11-15T16:16:14.437Z"
+    },
+    {
+      "code": "ANNCCHCYFXA",
+      "reward_text": null,
+      "added_at": "2026-11-15T16:16:14.437Z"
+    },
+    {
+      "code": "ANN3CJ7AENH",
+      "reward_text": null,
+      "added_at": "2026-11-15T16:16:14.437Z"
+    },
+    {
+      "code": "ANNTP6FAE4K",
+      "reward_text": null,
+      "added_at": "2026-11-15T16:16:14.437Z"
+    },
+    {
+      "code": "ANNYCPQTDX3",
+      "reward_text": null,
+      "added_at": "2026-11-15T16:16:14.437Z"
+    },
+    {
+      "code": "ANNKFAFR87D",
+      "reward_text": null,
+      "added_at": "2026-11-15T16:16:14.437Z"
+    },
+    {
+      "code": "ANNDQMQTHWD",
+      "reward_text": null,
+      "added_at": "2026-11-15T16:16:14.437Z"
+    },
+    {
+      "code": "ANNMX64J3QF",
+      "reward_text": null,
+      "added_at": "2026-11-15T16:16:14.437Z"
+    },
+    {
+      "code": "ANN47J6J7RR",
+      "reward_text": null,
+      "added_at": "2026-11-15T16:16:14.437Z"
+    },
+    {
+      "code": "ANND4F3KHDM",
+      "reward_text": null,
+      "added_at": "2026-11-15T16:16:14.437Z"
+    },
+    {
+      "code": "ANNF6TH8X4P",
+      "reward_text": null,
+      "added_at": "2026-11-15T16:16:14.437Z"
+    },
+    {
+      "code": "ANNWTTDF8JW",
+      "reward_text": null,
+      "added_at": "2026-11-15T16:16:14.437Z"
+    },
+    {
+      "code": "ANNH34RY4DK",
+      "reward_text": null,
+      "added_at": "2026-11-15T16:16:14.437Z"
+    },
+    {
+      "code": "ANNNXK38RMC",
+      "reward_text": null,
+      "added_at": "2026-11-15T16:16:14.437Z"
+    },
+    {
+      "code": "ANN84RHMTEM",
+      "reward_text": null,
+      "added_at": "2026-11-15T16:16:14.437Z"
+    },
+    {
+      "code": "ANNHJDT4KX7",
+      "reward_text": null,
+      "added_at": "2026-11-15T16:16:14.437Z"
+    },
+    {
+      "code": "ANNME44KMT8",
+      "reward_text": null,
+      "added_at": "2026-11-15T16:16:14.410Z"
+    },
+    {
+      "code": "ANNNMH8WRTM",
+      "reward_text": null,
+      "added_at": "2026-11-15T10:01:01.727Z"
+    },
+    {
+      "code": "ANNP8P6Y3XF",
+      "reward_text": null,
+      "added_at": "2026-11-15T09:57:34.667Z"
+    },
+    {
+      "code": "ANNW7HJ86JA",
+      "reward_text": null,
+      "added_at": "2026-11-15T09:57:34.659Z"
+    },
+    {
+      "code": "ANNYNDAHPXT",
+      "reward_text": null,
+      "added_at": "2026-11-15T09:57:31.901Z"
+    },
+    {
+      "code": "ANNQNREWQWQ",
+      "reward_text": null,
+      "added_at": "2026-11-15T06:28:10.561Z"
+    },
+    {
+      "code": "ANNMN7CT3XD",
+      "reward_text": null,
+      "added_at": "2026-11-15T04:50:16.947Z"
+    },
+    {
+      "code": "ANN8QFMKR3K",
+      "reward_text": null,
+      "added_at": "2026-11-15T04:50:16.938Z"
+    },
+    {
+      "code": "ANNJCYMNNF6",
+      "reward_text": null,
+      "added_at": "2026-11-15T04:50:16.653Z"
+    },
+    {
+      "code": "ANNYP66HDWR",
+      "reward_text": null,
+      "added_at": "2026-11-15T04:50:16.646Z"
+    },
+    {
+      "code": "ANNNXWFWN3D",
+      "reward_text": null,
+      "added_at": "2026-11-15T04:50:16.592Z"
+    },
+    {
+      "code": "ANN4A78TNQ8",
+      "reward_text": null,
+      "added_at": "2026-11-15T04:50:04.441Z"
+    },
+    {
+      "code": "ANNPCNNKTPN",
+      "reward_text": null,
+      "added_at": "2026-11-15T01:21:24.756Z"
+    },
+    {
+      "code": "ANNPHXDN7WJ",
+      "reward_text": null,
+      "added_at": "2026-11-15T01:21:24.751Z"
+    },
+    {
+      "code": "ANNTQTEQ3TR",
+      "reward_text": null,
+      "added_at": "2026-11-15T01:21:24.703Z"
+    },
+    {
+      "code": "ANN34JPJF3H",
+      "reward_text": null,
+      "added_at": "2026-11-15T01:21:24.687Z"
+    },
+    {
+      "code": "11GOOSE14GIFT",
+      "reward_text": null,
+      "added_at": "2026-11-14T19:49:23.232Z"
+    },
+    {
+      "code": "ANNYATCN6DD",
+      "reward_text": null,
+      "added_at": "2026-11-14T19:49:20.989Z"
+    },
+    {
+      "code": "ANNMD744J3N",
+      "reward_text": null,
+      "added_at": "2026-11-14T19:49:01.688Z"
+    },
+    {
+      "code": "ANNKY7EWKRJ",
+      "reward_text": null,
+      "added_at": "2026-11-14T19:48:42.308Z"
+    },
+    {
+      "code": "ANNXAFACP7M",
+      "reward_text": null,
+      "added_at": "2026-11-14T19:48:32.591Z"
+    },
+    {
+      "code": "ANN7JR37KEH",
+      "reward_text": null,
+      "added_at": "2026-11-14T19:48:20.435Z"
+    },
+    {
+      "code": "ANNJEWRFKM3",
+      "reward_text": null,
+      "added_at": "2026-11-14T19:48:13.166Z"
+    },
+    {
+      "code": "ANN6NYHA8AQ",
+      "reward_text": null,
+      "added_at": "2026-11-14T17:06:00.045Z"
+    },
+    {
+      "code": "ANNYNPA7M63",
+      "reward_text": null,
+      "added_at": "2026-11-14T17:06:00.033Z"
+    },
+    {
+      "code": "ANNCKRXC4EA",
+      "reward_text": null,
+      "added_at": "2026-11-14T17:05:59.832Z"
+    },
+    {
+      "code": "ANNPA6CC3K6",
+      "reward_text": null,
+      "added_at": "2026-11-14T17:05:50.580Z"
+    },
+    {
+      "code": "ANNNPW46TPD",
+      "reward_text": null,
+      "added_at": "2026-11-14T17:05:50.580Z"
+    },
+    {
+      "code": "ANNYTYTP78X",
+      "reward_text": null,
+      "added_at": "2026-11-14T17:05:50.580Z"
+    },
+    {
+      "code": "ANNHKXH8TDN",
+      "reward_text": null,
+      "added_at": "2026-11-14T17:05:50.580Z"
+    },
+    {
+      "code": "ANNWQHHNFXM",
+      "reward_text": null,
+      "added_at": "2026-11-14T17:05:50.580Z"
+    },
+    {
+      "code": "ANN6NJ44DFT",
+      "reward_text": null,
+      "added_at": "2026-11-14T17:05:50.580Z"
+    },
+    {
+      "code": "ANNYYK68KA8",
+      "reward_text": null,
+      "added_at": "2026-11-14T17:05:50.580Z"
+    },
+    {
+      "code": "ANNR43WWA8H",
+      "reward_text": null,
+      "added_at": "2026-11-14T17:05:50.580Z"
+    },
+    {
+      "code": "ANN4QC7TQ4H",
+      "reward_text": null,
+      "added_at": "2026-11-14T17:05:50.580Z"
+    },
+    {
+      "code": "ANNNTQA3YRT",
+      "reward_text": null,
+      "added_at": "2026-11-14T17:05:50.580Z"
+    },
+    {
+      "code": "ANN6CPM3CH6",
+      "reward_text": null,
+      "added_at": "2026-11-14T17:05:50.580Z"
+    },
+    {
+      "code": "ANNTDW8T6KA",
+      "reward_text": null,
+      "added_at": "2026-11-14T17:05:50.580Z"
+    },
+    {
+      "code": "ANNMXFFWYJC",
+      "reward_text": null,
+      "added_at": "2026-11-14T17:05:50.580Z"
+    },
+    {
+      "code": "ANN7HC44JC8",
+      "reward_text": null,
+      "added_at": "2026-11-14T17:05:50.580Z"
+    },
+    {
+      "code": "ANNEFEPMMHA",
+      "reward_text": null,
+      "added_at": "2026-11-14T17:05:50.580Z"
+    },
+    {
+      "code": "ANNNXRJQCXM",
+      "reward_text": null,
+      "added_at": "2026-11-14T17:05:50.580Z"
+    },
+    {
+      "code": "ANNF8QTEPNY",
+      "reward_text": null,
+      "added_at": "2026-11-14T17:05:50.580Z"
+    },
+    {
+      "code": "ANNJWHQW364",
+      "reward_text": null,
+      "added_at": "2026-11-14T17:05:50.580Z"
+    },
+    {
+      "code": "ANN8T8WAARC",
+      "reward_text": null,
+      "added_at": "2026-11-14T17:05:50.569Z"
+    },
+    {
+      "code": "ANNCPCDJYJ3",
+      "reward_text": null,
+      "added_at": "2026-11-14T17:05:50.463Z"
+    },
+    {
+      "code": "ANNT4K66P4N",
+      "reward_text": null,
+      "added_at": "2026-11-14T17:05:50.463Z"
+    },
+    {
+      "code": "ANNQX4ER8XH",
+      "reward_text": null,
+      "added_at": "2026-11-14T17:05:50.463Z"
+    },
+    {
+      "code": "ANNDY4HYRQ7",
+      "reward_text": null,
+      "added_at": "2026-11-14T17:05:50.463Z"
+    },
+    {
+      "code": "ANN3QR3AKJ8",
+      "reward_text": null,
+      "added_at": "2026-11-14T17:05:50.463Z"
+    },
+    {
+      "code": "ANNYJJHHH6R",
+      "reward_text": null,
+      "added_at": "2026-11-14T17:05:50.447Z"
+    },
+    {
+      "code": "ANNNARQKHX7",
+      "reward_text": null,
+      "added_at": "2026-11-14T07:21:15.602Z"
+    },
+    {
+      "code": "ANN6RX86YJF",
+      "reward_text": null,
+      "added_at": "2026-11-14T07:19:33.053Z"
+    },
+    {
+      "code": "ANN38DJ48RQ",
+      "reward_text": null,
+      "added_at": "2026-11-14T07:19:29.280Z"
+    },
+    {
+      "code": "ANNJXCFTJFY",
+      "reward_text": null,
+      "added_at": "2026-11-14T06:00:33.260Z"
+    },
+    {
+      "code": "ANNP6HKMMT3",
+      "reward_text": null,
+      "added_at": "2026-11-14T06:00:33.260Z"
+    },
+    {
+      "code": "ANNP7TD4FCQ",
+      "reward_text": null,
+      "added_at": "2026-11-14T04:29:55.942Z"
+    },
+    {
+      "code": "ANNAYREDKYY",
+      "reward_text": null,
+      "added_at": "2026-11-14T04:29:55.942Z"
+    },
+    {
+      "code": "ANNMPK6AJFA",
+      "reward_text": null,
+      "added_at": "2026-11-14T04:29:55.933Z"
+    },
+    {
+      "code": "ANN76KQQNC3",
+      "reward_text": null,
+      "added_at": "2026-11-14T04:29:55.575Z"
+    },
+    {
+      "code": "ANNHA3HTQJM",
+      "reward_text": null,
+      "added_at": "2026-11-14T04:29:55.550Z"
+    },
+    {
+      "code": "ANNHWQ8EMMM",
+      "reward_text": null,
+      "added_at": "2026-11-14T04:28:26.371Z"
+    },
+    {
+      "code": "ANNWTT8DK87",
+      "reward_text": null,
+      "added_at": "2026-11-14T04:28:19.151Z"
+    },
+    {
+      "code": "ANNYC4WEEX3",
+      "reward_text": null,
+      "added_at": "2026-11-14T04:28:11.742Z"
+    },
+    {
+      "code": "ANNAJCE8MDT",
+      "reward_text": null,
+      "added_at": "2026-11-14T03:59:27.638Z"
+    },
+    {
+      "code": "ANNTTW6CQY8",
+      "reward_text": null,
+      "added_at": "2026-11-14T03:17:20.111Z"
+    },
+    {
+      "code": "ANN4Q64TNF6",
+      "reward_text": null,
+      "added_at": "2026-11-14T03:17:20.111Z"
+    },
+    {
+      "code": "ANNX6DPMPHD",
+      "reward_text": null,
+      "added_at": "2026-11-14T03:17:20.111Z"
+    },
+    {
+      "code": "ANN6FACH6EA",
+      "reward_text": null,
+      "added_at": "2026-11-14T03:17:20.111Z"
+    },
+    {
+      "code": "ANN7PCR4H4W",
+      "reward_text": null,
+      "added_at": "2026-11-14T03:17:20.111Z"
+    },
+    {
+      "code": "ANNMEHAHPCW",
+      "reward_text": null,
+      "added_at": "2026-11-14T03:17:20.111Z"
+    },
+    {
+      "code": "ANNQ3PXX6JT",
+      "reward_text": null,
+      "added_at": "2026-11-14T03:17:20.111Z"
+    },
+    {
+      "code": "ANNJDPATTPQ",
+      "reward_text": null,
+      "added_at": "2026-11-14T03:17:20.103Z"
+    },
+    {
+      "code": "ANNK8XEWXM4",
+      "reward_text": null,
+      "added_at": "2026-11-14T03:17:19.923Z"
+    },
+    {
+      "code": "ANNM7TYXXYN",
+      "reward_text": null,
+      "added_at": "2026-11-14T03:17:19.892Z"
+    },
+    {
+      "code": "ANNQ8WY8PQ7",
+      "reward_text": null,
+      "added_at": "2026-11-14T01:38:50.793Z"
+    },
+    {
+      "code": "ANNTNFAPC34",
+      "reward_text": null,
+      "added_at": "2026-11-13T23:18:31.352Z"
+    },
+    {
+      "code": "ANNEKEDTF7F",
+      "reward_text": null,
+      "added_at": "2026-11-13T23:10:15.601Z"
+    },
+    {
+      "code": "ANNRFHQDMEK",
+      "reward_text": null,
+      "added_at": "2026-11-13T18:33:52.024Z"
+    },
+    {
+      "code": "WWM1YEAR",
+      "reward_text": null,
+      "added_at": "2026-11-13T18:33:51.701Z"
+    },
+    {
+      "code": "ANNQDTA7N67",
+      "reward_text": null,
+      "added_at": "2026-11-13T18:33:51.685Z"
+    },
+    {
+      "code": "ANNQYENHQ7R",
+      "reward_text": null,
+      "added_at": "2026-11-13T13:15:52.479Z"
+    },
+    {
+      "code": "ANN8ER4K7JP",
+      "reward_text": null,
+      "added_at": "2026-11-13T12:20:11.573Z"
+    },
+    {
+      "code": "ANNQEFXCCYQ",
+      "reward_text": null,
+      "added_at": "2026-11-13T12:19:59.098Z"
+    },
+    {
+      "code": "ANN76PDN7J4",
+      "reward_text": null,
+      "added_at": "2026-11-12T17:19:45.183Z"
+    },
+    {
+      "code": "ANN67KFNNDE",
+      "reward_text": null,
+      "added_at": "2026-11-12T16:56:44.351Z"
+    },
+    {
+      "code": "ANNTNKP8E7A",
+      "reward_text": null,
+      "added_at": "2026-11-12T16:56:44.330Z"
+    },
+    {
+      "code": "ANNI26GATHER",
+      "reward_text": null,
+      "added_at": "2026-11-12T16:56:13.827Z"
+    },
+    {
+      "code": "WWMRDTWIKIGO",
+      "reward_text": null,
+      "added_at": "2026-11-10T17:35:24.029Z"
+    },
+    {
+      "code": "WWMR3DD1T11",
+      "reward_text": null,
+      "added_at": "2026-11-10T00:17:35.512Z"
+    },
+    {
+      "code": "ANN6WD4YNH3",
+      "reward_text": null,
+      "added_at": "2026-11-06T17:23:47.712Z"
+    },
+    {
+      "code": "WWMHUTUO",
+      "reward_text": null,
+      "added_at": "2026-11-06T17:23:47.549Z"
+    },
+    {
+      "code": "ANNF8HPH36R",
+      "reward_text": null,
+      "added_at": "2026-11-05T23:37:49.692Z"
+    },
+    {
+      "code": "ANN6AJDC3JD",
+      "reward_text": null,
+      "added_at": "2026-11-05T23:37:46.381Z"
+    },
+    {
+      "code": "ANN7P66XMC4",
+      "reward_text": null,
+      "added_at": "2026-11-03T18:08:48.265Z"
+    },
+    {
+      "code": "1113HUTUOGO",
+      "reward_text": null,
+      "added_at": "2026-10-28T17:13:00.831Z"
+    },
+    {
+      "code": "WWMR3DD1T10",
+      "reward_text": null,
+      "added_at": "2026-10-23T17:42:10.606Z"
+    },
+    {
+      "code": "1015QINGZHOU",
+      "reward_text": null,
+      "added_at": "2026-10-08T16:20:21.612Z"
+    },
+    {
+      "code": "WWMXATM3",
+      "reward_text": null,
+      "added_at": "2026-09-30T16:10:25.547Z"
+    },
+    {
+      "code": "WWMR3DD1T09",
+      "reward_text": null,
+      "added_at": "2026-09-14T15:23:15.427Z"
+    },
+    {
+      "code": "WWM20261114",
+      "reward_text": null,
+      "added_at": "2026-08-06T08:04:12.817Z"
+    },
+    {
+      "code": "WWMXATM0501",
+      "reward_text": null,
+      "added_at": "2026-06-29T12:00:00.000Z"
+    },
+    {
+      "code": "LIANGZHOU0402",
+      "reward_text": null,
+      "added_at": "2026-06-29T12:00:00.000Z"
+    }
+  ],
+  "expired": [
+    "NNYC6WWMJA",
+    "TF37WR876K",
+    "TF33HXJMJC",
+    "QZ1015",
+    "DK84X3H4DK",
+    "WCJYCE7J4E",
+    "FPKNWXHPQW",
+    "RRW8DE784E",
+    "YPKY4PKYH6",
+    "SETXEP4NDT",
+    "JSQEWY8CTF",
+    "EPCRTRNTR7",
+    "FFYJ6RRMPH",
+    "MFC6FKD64N",
+    "MEYPKHFX76",
+    "MXKP6FAAME",
+    "AYX8W8FTCW",
+    "SMPQ6PH4CY",
+    "QEQWC6RAP8",
+    "CTA7MN88M8",
+    "NDF3KEFHMX",
+    "SDK8XHRWH4",
+    "FJEARA43X4",
+    "FHTJDTDPHE",
+    "SSF6DKHMDK",
+    "FSWMQ8D6DD",
+    "QM3DJEPM3D",
+    "NH48MMACNP",
+    "YT7Y8R3YQY",
+    "YYQ8TJ8WCF",
+    "WJKNWR4FJA",
+    "NNQK8DM8C8",
+    "QW6NACMQET",
+    "JMMHK8DKFP",
+    "HP4FH8TEDX",
+    "HRAD37H3HD",
+    "AD873Q4A44",
+    "PPJ8E7PNPW",
+    "MTRPH66FCP",
+    "QNYJHEAQM4",
+    "EARXAYMEJA",
+    "JPJWJYTKXH",
+    "YSY3J7F4MN",
+    "YQCD8XDJE7",
+    "THYC44DPXN",
+    "KR37X46J37",
+    "EAFA7XJWEC",
+    "PEEH7DEQTW",
+    "DTD3FXPW7N",
+    "KKMKXWKPKH",
+    "CHC6Q84KM8",
+    "SPC8ARN4PC",
+    "AC688DR7MW",
+    "RCDKRMP8RM",
+    "QSECW4P3AH",
+    "MCTF7FMCTQ",
+    "MT6QFCRPHN",
+    "RMTT6KDRHQ",
+    "WA66CJ6P6H",
+    "TE8CK6Y3XW",
+    "PJHHNWADC3",
+    "QMEEECDED8",
+    "SDDPRA8CRH",
+    "PCRMQ8X4RT",
+    "NJYQWK466M",
+    "DDDN4RD7WD",
+    "HQMJ7EKRHH",
+    "KPJP8TNYHD",
+    "AYJJAPAT6P",
+    "NMAC7M4X6Q",
+    "YKMXP8QYRF",
+    "PRC8DHYTC8",
+    "NJE4TEAHMD",
+    "RKWYAQTQWD",
+    "RMDR3H8YCP",
+    "SJJK8MT6EQ",
+    "TJ8F3XNC7K",
+    "WX77AQ7DXR",
+    "HM4DNFANHR",
+    "AJWDYNXAPH",
+    "KRJ36RKCWP",
+    "WD7H83YK7Y",
+    "RQM7E8FHRT",
+    "QMNCQJKXRF",
+    "ANNFTA7RX7W",
+    "CFJ4AK8WWE",
+    "ATF3EFXN7R",
+    "AFKH8T6E6E",
+    "NNJ4EKH3NR",
+    "SQ48K3H7J7",
+    "YXKPMTH7AM",
+    "XSQXK8HQ6D",
+    "HMCHAP3FINALE",
+    "0916HMFINALE",
+    "FTQH4ENPQQ",
+    "FSHQHY7QNA",
+    "FNCJF6FMRR",
+    "AKXX38AY8N",
+    "XTC7XXHEJE",
+    "NYKNC86JCR",
+    "YW6TXEJRKH",
+    "EDHX6DDAKA",
+    "HA4DC4TYW3",
+    "YJM6QK6Q7T",
+    "TY8WAKC8HF",
+    "CDYRAQEPR4",
+    "YYEHCE8RDP",
+    "KQFW8RWQHR",
+    "MN3PPHTAXD",
+    "KP3H3HRXRH",
+    "SRHCX683MF",
+    "HS3TRH68DY",
+    "SHFDCTQT6K",
+    "TCXD38MWYR",
+    "CWWEDFNFE7",
+    "NY7FNCAXW8",
+    "JC46QWQAMM",
+    "FKQDNCYJW6",
+    "QE7F6HT7RA",
+    "FEWX86N76W",
+    "TKMW3333J7",
+    "RAA8MRHYW4",
+    "JXWAQEJ6EY",
+    "RHCWF8H8NN",
+    "SK7ADNQHFM",
+    "CQYHJPT4X3",
+    "CYF7PPKMT8",
+    "KSM4RFYNR3",
+    "JY68CWYTKT",
+    "KWCXKYX68X",
+    "CMW3WCJHM8",
+    "EPFJJ37NQN",
+    "XWCXEETKKE",
+    "NT6JEJNTXH",
+    "EWMJ38TKDA",
+    "ST4QJP4P7N",
+    "SS4P6XT7WD",
+    "NT3C73KNWK",
+    "TPJH64YE8E",
+    "WDCJA3AAA7",
+    "KACDM36H6Q",
+    "SJR474KH3Q",
+    "ESARA7YJ4M",
+    "PW4MEMJPTY",
+    "TR4NTYMCWJ",
+    "NANW7H4YQ8",
+    "ENNRTKJX6Q",
+    "JR7YT36463",
+    "CDM8T86F7C",
+    "ECYTNATPF3",
+    "TFRQY34KEJ",
+    "KCQCTNAHTK",
+    "JFKW6E88HM",
+    "HCRE486NTC",
+    "QCDQD4K8TE",
+    "QR8JMF6367",
+    "TSAEEEW6PX",
+    "KMYKC4C7NP",
+    "JXAH3ARYCP",
+    "SWHKWQWMDE",
+    "KM7X43E66D",
+    "KW64AQ4MRM",
+    "SXCNN6WQWD",
+    "MW86NJAKTE",
+    "YJNX4QYR7X",
+    "CT8W78CMEF",
+    "HJJP8EKQMM",
+    "KPFFQT7QYT",
+    "MKD3W6YRHM",
+    "YRAHRHHMDM",
+    "SNX8MHX6AW",
+    "DKAF8YENK3",
+    "WAF77PC6EQ",
+    "QMN4T8T7RQ",
+    "SQQM4AFNJT",
+    "AXDJ86EMEC",
+    "KHCW37FF6T",
+    "QEPYWXTQWN",
+    "EEQJMDMJHX",
+    "JN6NNWJN33",
+    "SK6HFW6T3T",
+    "REMJCEAEAY",
+    "KDKKY8AN8A",
+    "SN74Y8ACXR",
+    "EHAYWMNM38",
+    "NW64EPCMXC",
+    "PK67XXK7JQ",
+    "THHM6C38FP",
+    "TK7D3PACJT",
+    "WWTHKEHDN8",
+    "TYNDEQCRE6",
+    "MKE7WFWDR4",
+    "WHD77CAFJH",
+    "MJFKQ7N687",
+    "WWTHMQCQFN",
+    "EQ36T7MXNC",
+    "BOSSSLAYER",
+    "FINALTRUTH",
+    "MEETINHM",
+    "0723HMGO",
+    "HM0820",
+    "HMCHAP2",
+    "LASTSUNSET",
+    "WWMQC30",
+    "WWMQC29",
+    "WWMQC28",
+    "WWMQC27",
+    "WWMQC26",
+    "WWMQC25",
+    "WWMQC24",
+    "WWMQC23",
+    "WWMQC22",
+    "WWMQC21",
+    "WWMQC20",
+    "WWMQC19",
+    "WWMQC18",
+    "WWMQC17",
+    "WWMQC16",
+    "WWMQC15",
+    "WWMQC14",
+    "WWMQC13",
+    "WWMQC12",
+    "WWMQC11",
+    "WWMQC10",
+    "WWMQC9",
+    "WWMQC8",
+    "WWMQC7",
+    "WWMQC6",
+    "WWMQC5",
+    "WWMQC4",
+    "WWMQC3",
+    "WWMQC2",
+    "WWMQC1",
+    "TH76NQK7R7",
+    "RPWCYTMP4X",
+    "PFCAAJKH86",
+    "AFRT3KR4AK",
+    "TQJ4C6JRWW",
+    "RFRM4XFAKK",
+    "AWC6XF4CX8",
+    "SYXNRNQJY4",
+    "CRKTTEHYDF",
+    "NXHAXHMM3Q",
+    "CW6THCJ6KE",
+    "MA3KQT34E7",
+    "FRNPXAFDMF",
+    "NY6METERNR",
+    "FTWHQF4PEQ",
+    "HDQDTD4M4W",
+    "FAHWP6RT6D",
+    "DC3NJWFR3N",
+    "HSP4QAQKJ7",
+    "HN7EQFTR34",
+    "QJAJ3DDMCP",
+    "RFXDYYAPDT",
+    "XMAEKXJEMF",
+    "RCPDRW4RTN",
+    "JDPCPT7FTM",
+    "EEC636TJKJ",
+    "NERYRCTED6",
+    "MQJYHRRQYM",
+    "NEVERLOOKBACK",
+    "WYQD6YP4AP",
+    "CHYF4FX66Q",
+    "PE6YENXR6A",
+    "WHN8MW8EH6",
+    "HFAJ73PDJR",
+    "RKJJHNHENJ",
+    "FC7HAXJRC3",
+    "KDPTNK6PND",
+    "QKQTMJNFWC",
+    "YHY4RMA7TD",
+    "PXPQH4AHAC",
+    "AEFJD3YTFA",
+    "FXACJDC4TM",
+    "EHT664EF7D",
+    "ARRDFAKFTK",
+    "RJCDYHW8CP",
+    "SEPFTTJCXX",
+    "DQEYADP6MK",
+    "HPPA84JHP6",
+    "TXRYWTDA34",
+    "PSEEQPHJ83",
+    "XH8NE4X477",
+    "DXFPAYAQAH",
+    "QDRHQHECTA",
+    "HEKT6QTKTX",
+    "RA3X3THAEN",
+    "DJCAY36TE3",
+    "AHKRW8XJDF",
+    "XNMFJTCAYR",
+    "NCX6WWCY86",
+    "KJ3Y8MYTMF",
+    "KXKPEX3MCF",
+    "DMDRXMX8MF",
+    "TYJ7XAA74A",
+    "PAPAME8NJD",
+    "RKMRWPJD7N",
+    "KYXCNQ6HHX",
+    "FCDHJE6N7A",
+    "SC8QWXKPCX",
+    "HDECM8QA43",
+    "CWDWTCX3DN",
+    "MSNEX4FRN8",
+    "WJ6EMNH3J6",
+    "RHDJ6WMT3J",
+    "YDF3CNX38P",
+    "JMM6HK76Y3",
+    "CXDAK4R8D4",
+    "MMDCN6HY6D",
+    "HXEQC37XXE",
+    "MFPA3FWHJN",
+    "FQDHYY43TW",
+    "NN8QMK76MM",
+    "CCXWDQPRD7",
+    "QCTY47Q6FT",
+    "JSTEYYRY8A",
+    "SNEXA3NDN3",
+    "PHEK7MRDMP",
+    "MDNH8NWQX3",
+    "TS8XM7Q6AJ",
+    "FEJH7KMAHX",
+    "WHK7YFXCNY",
+    "EQMWPDJYKA",
+    "HHE7YWP4TC",
+    "DE4RNXFRWW",
+    "CDH866J8A4",
+    "YCWDT6H8MR",
+    "NSXPAA4D6D",
+    "NW3KEHNRPR",
+    "THEETNNKCK",
+    "WMKYN6PK8N",
+    "AQ3QRN6KNJ",
+    "JAAJQQE6DJ",
+    "HXAFXWMTPH",
+    "FJ6QXW7MQE",
+    "QPCAY66MNA",
+    "SNY8KPX3FX",
+    "CC3ETYXWJE",
+    "EECWT48NQ3",
+    "ACT783EWC4",
+    "DQ8T6RFW8J",
+    "FRF6KXEM6K",
+    "AHPCTHCY8R",
+    "ERAHCX8WFQ",
+    "ERNYCY76NF",
+    "ER78NQQNKN",
+    "ERYTN8K6PY",
+    "ER4R8KCFNQ",
+    "ERKFX46W8T",
+    "WWMGO1115",
+    "WWMGO1114",
+    "WWMBIND01",
+    "WWMDISCORD",
+    "WWMGLYOUTUBE",
+    "WWMGLTIKTOK",
+    "WWM251115",
+    "YYSLSTIB",
+    "GOOSENEWS",
+    "DEVLOG2601",
+    "WWMR3DD1T01",
+    "XS76X8FAKX",
+    "THY3E8MRRD",
+    "XSHWC8QXW6",
+    "GOOSELOVEU",
+    "HOMESTEAD0625",
+    "JRW7DQ3AKA",
+    "XRTH7DEWHW",
+    "TYRNNJH6YA",
+    "QQ8FHPMN3C",
+    "SKFW3FXHER",
+    "RSNAW67ATQ",
+    "WDTQXRW4EW",
+    "JSYE7WXYFF",
+    "JJHAA8PYA7",
+    "PE7W8MRH76",
+    "WQ7HMATQEK",
+    "DD38H44TYH",
+    "CCPDDACMN8",
+    "HSEXEQ7XH3",
+    "SAJMDP88ET",
+    "CP434JE4JT",
+    "XXEHQ8XKK3",
+    "RHDNNKKW4R",
+    "XDY3QF6PJ6",
+    "EW3KP6CDKF",
+    "EEC8DXA63X",
+    "KH4FPNNRC6",
+    "SXMWNAHYXY",
+    "RKWFYDA4A7",
+    "EKAMFQH6MK",
+    "PDM68QHXM8",
+    "KPCA7MF6KN",
+    "FC8Q8TA7HN",
+    "HDAEPCXFRM",
+    "PCQTT46W64",
+    "PHERCTHKAR",
+    "TJ3XCYWWR3",
+    "CYMKP48WMQ",
+    "HX37DK8D7Y",
+    "DRAC3PQEHY",
+    "FCAC4FNRQF",
+    "QS6NDHJYAM",
+    "MF3T3Q7JDD",
+    "MMCHH3AWYD",
+    "QYM8CN3D6R",
+    "XFDE6777HX",
+    "SJ8866YCDT",
+    "QF73HNHXTD",
+    "MPRH8DEKQQ",
+    "HR648Q8R3Q",
+    "DXWA6MKK87",
+    "RJNAAXCQKJ",
+    "XTY6774DJH",
+    "KCF38QKEN3",
+    "JWEPJ6NTHF",
+    "EYDAJHQYWD",
+    "QCMR86MAEC",
+    "PMNF447MPW",
+    "NCD3863WDA",
+    "NKD78HQ6DD",
+    "YA8TAHP88K",
+    "NSNPFNKHEP",
+    "NPEHHEWAPH",
+    "QWD3FPYYCM",
+    "ER46P3EC6A",
+    "FRPCFXY38R",
+    "TPMC63XW43",
+    "TKEERPWFYJ",
+    "RF4RNQEKPC",
+    "KRY7CWY3KD",
+    "HP6PMXJ48F",
+    "WTDJA7J6N6",
+    "YJE3A74WAQ",
+    "WKNMDN3NPQ",
+    "YPYFRCRXPY",
+    "WETX4TFCTF",
+    "WNHMWA337M",
+    "MYX4NQMFFX",
+    "WRTJWQKWAW",
+    "HSAW8CEAFP",
+    "JRNHDCH8QD",
+    "FX7TQMEKAH",
+    "QH3PH847T3",
+    "RKKF4DNYPD",
+    "PTQNXR3FTQ",
+    "JPYFEX7XF7",
+    "RAHKHCDYHT",
+    "QY6C3RMFJD",
+    "EAE36WQHHD",
+    "DNKDEWK6FC",
+    "EMNQMYM38P",
+    "SYDHTJ8QAT",
+    "QMQW7RQJT6",
+    "CYMWMFCJDH",
+    "CH8AJWFRRR",
+    "MN6MXF8QPE",
+    "HYXJRTA37F",
+    "HXY33FXEFM",
+    "DQJXNYQNJ4",
+    "DFPYC6DPXQ",
+    "FSA7JNANTP",
+    "KC6T677DRY",
+    "WM8E7JJF47",
+    "SK7HREDTT3",
+    "XENFQR6RFF",
+    "RSPQME7JFW",
+    "NMKK6NWWFF",
+    "KS8N4TE83K",
+    "WAHNDY4ME3",
+    "WWMR3DD1T",
+    "GOHOME123",
+    "QINCHUAN0430",
+    "QINCHUANGOGO",
+    "KRDA7X3AXY",
+    "XQFWEQMKMX",
+    "NY4TTJKEKQ",
+    "PAM46YAQ86",
+    "EKMW673Q8A",
+    "THMQNAFXQC",
+    "YYP4QNC7NQ",
+    "DTXHCJ6DNN",
+    "TD8XMRKJMK",
+    "HK367A6FDJ",
+    "HH6AM6C8RF",
+    "TNHP8E8W3T",
+    "MFDTMT3YMA",
+    "PEE6RWWEFK",
+    "EJXXHKDHHK",
+    "YRYQHTNEDA",
+    "TSY7RD6JTM",
+    "KAAYFMX7HP",
+    "MKTQJR3DMA",
+    "RNTF3MMTMR",
+    "NKTTCPETYC",
+    "FHKD7HHWRJ",
+    "HD8PHDX443",
+    "HSWW3NCEKY",
+    "HSM84QD8DQ",
+    "PXYR8M4AJJ",
+    "DHR7N8HR4R",
+    "TAC6PXMFAR",
+    "AWTE43FCP7",
+    "WK7K8RY8JJ",
+    "EKNAPHAHYY",
+    "XRKPY6C38A",
+    "SY3KQQE8KR",
+    "SWCQQQHWAE",
+    "JJXDTKCD8Y",
+    "FAFDMF4ME7",
+    "CAMHWXWYQX",
+    "JXT3CTJHWP",
+    "MX8MYAYJ4Q",
+    "NQP4YKKFJ4",
+    "RN8T4EWWD7",
+    "WJ8N4AHDMK",
+    "SCK3JFTF7M",
+    "JPP8WCWPHE",
+    "KPC346C44A",
+    "NEDEPQ3N6F",
+    "QCMHYH34NJ",
+    "TRAC6YKC8P",
+    "SPQMXKP3P4",
+    "CW4AP7AA6T",
+    "KWAFCWDFJF",
+    "KJ4YF433MN",
+    "SE3RNWEDAT",
+    "KERYF4RXM4",
+    "RYCDP8MMNH",
+    "FN6AHA3T7N",
+    "NSAHT7AHKJ",
+    "YY3NQAJ7WJ",
+    "QTNJP7P4PC",
+    "FXA7WPXP6C",
+    "QSD4JECMQD",
+    "RP68WW3NY6",
+    "ARN8KQJAET",
+    "WH7PRYFFPA",
+    "MAWQA8HR48",
+    "HD4CRCHPTN",
+    "FHHXEYRJAN",
+    "PJCXEP4MFT",
+    "NK4AJFPDWC",
+    "TPCF3FEN6Y",
+    "APE6NNXY4K",
+    "NDETCQEXHF",
+    "CP8WMH8W4C",
+    "TP78EF43YH",
+    "QSFXR8EE8D",
+    "XM8AQFRCPX",
+    "MQECJKF7AR",
+    "WWMREDDIT0625",
+    "QD7CWRDXDE",
+    "MCPT3JF473",
+    "JXC8R8KMCW",
+    "RNAT7QJ6X3",
+    "JMKADAWWWM",
+    "PMHXDPHKQT",
+    "JF3MYHDKWX",
+    "WFNRACM4RW",
+    "HY6JJ74JTT",
+    "RAXFT7K8R7",
+    "XDKHDDPPKN",
+    "QXE6RHNE3R",
+    "EAD6EXNA4A",
+    "AC46AQH368",
+    "AMWHXMXNWW",
+    "DQTEXM8DMH",
+    "EPFXQKJ8FX",
+    "ESJCRRJC64",
+    "FN4DAJWAKD",
+    "FQRR4HW38N",
+    "HDCM37C8T8",
+    "HECR6ADEWK",
+    "JTATEPNY3W",
+    "KQ66HYWCMW",
+    "KTJWN6EQR6",
+    "KW7C4KCJ4F",
+    "MF3FQ3YCFR",
+    "MTPMTWQ7QN",
+    "NN6K8JXEQR",
+    "PENQDXYJX6",
+    "PMWCTDX7PK",
+    "PSYTNDR6Y7",
+    "PW7WM4A33Y",
+    "QMQCJK7WC7",
+    "QSFKRPCT4Q",
+    "RNHRPD6FN8",
+    "RXN43JTDTA",
+    "TSCMFPNYRQ",
+    "XCANFDTE8J",
+    "XD6TWNAQ3D",
+    "XMH4XRD6Q7",
+    "XTQ3NTJ8FA",
+    "XX4XN3XRKA",
+    "DUEBID9467",
+    "AMTRC8F3AJ",
+    "MC8E7MQKRY",
+    "HEXI0306",
+    "HAPPY515",
+    "LIANGZHOUGO",
+    "MEETINHEXI",
+    "PALACE0528",
+    "PALACEGO",
+    "WWMDEVTALK",
+    "HEXIGOGO",
+    "WWMREDDIT",
+    "YQTWNQKJJE"
+  ]
+}

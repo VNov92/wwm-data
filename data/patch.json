@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "health": {
+    "status": "failing",
+    "last_attempt_at": "2026-11-22T02:37:40Z",
+    "last_success_at": null,
+    "sources": [
+      {
+        "name": "wherewindsmeetgame.com",
+        "tier": "html",
+        "result": "ok",
+        "message": "3849 chars"
+      },
+      {
+        "name": "gemini",
+        "tier": "translate",
+        "result": "error",
+        "message": "missing GEMINI_API_KEY"
+      }
+    ]
+  },
+  "patch": {
+    "version": "2.2",
+    "releaseDate": "2026-09-16",
+    "title": "Ghi chú bản vá Phiên bản 2.2: Tối ưu hóa và Sửa lỗi",
+    "summary": "Perilous Eminence: Cải tiến toàn diện tính năng Bang hội, bổ sung Danh sách đen căn cứ, thống kê mùa giải chiến tranh bang hội, tạm đóng Đền Phản Chiếu và sửa lỗi trang phục, mô tả khí kiếm.",
+    "highlights": [
+      "Cải tiến toàn diện hệ thống Bang hội: chỉnh sửa danh sách thành viên, danh hiệu danh dự và thống kê mùa giải chiến tranh bang hội mới.",
+      "Bổ sung tính năng Danh sách đen (Blacklist) cho Căn cứ Bang hội để chặn người chơi hoặc bang hội khác ghé thăm.",
+      "Tạm thời đóng lối vào Đền Phản Chiếu (Reflection Temple) cho đến khi khu vực Giang Nam ra mắt, bảo toàn toàn bộ tiến trình của người chơi.",
+      "Sửa lỗi hiển thị trang phục [Hidden Scent] và điều chỉnh mô tả thuộc tính tăng sát thương của [Nameless Sword]."
+    ],
+    "sections": [
+      {
+        "title": "Cải tiến Bang hội",
+        "items": [
+          "Trang chủ Danh sách Bang hội hiện có thể chỉnh sửa: Ban Quản lý có thể ghim các thành viên được chọn lên đầu, các thành viên khác được sắp xếp theo độ năng nổ tuần trước.",
+          "Chiến tranh Bang hội bổ sung số liệu thống kê mùa giải cá nhân và bang hội, cho phép xem rõ dữ liệu giải đấu và ghép trận của từng mùa giải.",
+          "Cải tiến logic theo dõi thiên phú boss: khi nhận thưởng sau khi vượt ải Guild Hero's Realm, lượt nhận thưởng sẽ được ghi nhận cho cả hai boss.",
+          "Người chơi có thành tích xuất sắc trong các hoạt động Bang hội sẽ nhận được danh hiệu danh dự, hiển thị trên Danh sách và kênh chat Bang hội.",
+          "Bổ sung Danh sách đen cho Căn cứ Bang hội: có thể đưa cá nhân hoặc toàn bộ bang hội khác vào danh sách đen để chặn họ ghé thăm Căn cứ."
+        ]
+      },
+      {
+        "title": "Cải tiến khác",
+        "items": [
+          "Lối vào Đền Phản Chiếu (Reflection Temple) tạm thời được đóng lại và sẽ mở lại khi Giang Nam (Jiangnan) xuất hiện. Toàn bộ tiến trình vượt ải của bạn được bảo toàn."
+        ]
+      },
+      {
+        "title": "Sửa lỗi",
+        "items": [
+          "Sửa lỗi trang phục thiết kế [Hidden Scent] hiển thị không chính xác trong một số hoạt ảnh hiển thị kết quả.",
+          "Sửa lỗi mô tả Tăng Sát Thương Khí Kiếm của [Nameless Sword]: sửa thành mỗi cộng dồn tăng 10% Sát thương đối với đơn vị không phải người chơi, không cần vào trạng thái Kiệt Sức."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ghi chú bản vá chính thức Phiên bản 2.2",
+        "url": "https://www.wherewindsmeetgame.com/news/official/PerilousEminencePatchNotes.html"
+      }
+    ]
+  }
+}
