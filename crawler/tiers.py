@@ -6,6 +6,7 @@ from crawler.constants import CHALLENGE_MARKERS
 from crawler.models import TierResult
 
 _BLOCKED_STATUS_CODES = (403, 429, 503)
+_SMALL_BODY_CAPTCHA_LIMIT = 30_000
 
 
 class BlockedError(Exception):
@@ -17,7 +18,9 @@ def detect_block(status: int, body: str) -> bool:
     if status in _BLOCKED_STATUS_CODES:
         return True
     lower_body = (body or "").lower()
-    return any(marker.lower() in lower_body for marker in CHALLENGE_MARKERS)
+    if any(marker.lower() in lower_body for marker in CHALLENGE_MARKERS):
+        return True
+    return len(lower_body) < _SMALL_BODY_CAPTCHA_LIMIT and "captcha" in lower_body
 
 
 def run_tiers(

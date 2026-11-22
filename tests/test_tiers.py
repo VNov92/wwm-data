@@ -52,3 +52,13 @@ def test_challenge_page_is_blocked():
     assert detect_block(200, "<title>Just a moment...</title>") is True
     assert detect_block(403, "Forbidden") is True
     assert detect_block(200, '{"active": []}') is False
+
+
+def test_large_page_with_captcha_widget_not_blocked():
+    body = ("x" * 40_000) + '<div class="captcha-widget"></div>'
+    assert detect_block(200, body) is False
+
+
+def test_small_captcha_page_is_blocked():
+    assert detect_block(200, "<html><body>Please solve captcha</body></html>") is True
+

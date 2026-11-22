@@ -3,6 +3,7 @@
 YAR_API_URLS = [
     "https://codes.yar.gg/api/codes",
     "https://codes-backend.wwmcodes.workers.dev/v1/codes",
+    "https://codes-backend-prod.wwmcodes.workers.dev/v1/codes",
 ]
 YAR_HOME_URL = "https://codes.yar.gg/"
 
@@ -24,5 +25,5 @@ CHALLENGE_MARKERS = (
     "challenge-platform",
     "Just a moment",
     "Attention Required",
-    "captcha",
+    "verify you are human",
 )
