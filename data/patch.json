@@ -2,8 +2,8 @@
   "schema_version": 1,
   "health": {
     "status": "ok",
-    "last_attempt_at": "2026-11-22T04:13:04Z",
-    "last_success_at": "2026-11-22T04:13:04Z",
+    "last_attempt_at": "2026-11-22T04:30:42Z",
+    "last_success_at": "2026-11-22T04:30:42Z",
     "sources": [
       {
         "name": "wherewindsmeetgame.com",
@@ -16,12 +16,6 @@
         "tier": "steam",
         "result": "ok",
         "message": "12000 chars"
-      },
-      {
-        "name": "gemini",
-        "tier": "translate",
-        "result": "ok",
-        "message": "v2.4"
       }
     ]
   },
