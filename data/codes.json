@@ -2,8 +2,8 @@
   "schema_version": 1,
   "health": {
     "status": "ok",
-    "last_attempt_at": "2026-11-22T02:37:40Z",
-    "last_success_at": "2026-11-22T02:37:40Z",
+    "last_attempt_at": "2026-11-22T03:40:36Z",
+    "last_success_at": "2026-11-22T03:40:36Z",
     "sources": [
       {
         "name": "codes.yar.gg",
