@@ -15,17 +15,11 @@ from crawler.tiers import BlockedError, detect_block, run_tiers
 
 _PATCH_NOTES_RE = re.compile(r"patch.*note", re.IGNORECASE)
 _PATCH_UPDATE_RE = re.compile(r"patch|update", re.IGNORECASE)
-_STEAM_TITLE_RE = re.compile(r"patch|update|maintenance notes", re.IGNORECASE)
+_STEAM_TITLE_RE = re.compile(r"patch|update|maintenance notes|balance adjustment|version\s+\d+\.\d+", re.IGNORECASE)
 _TITLE_SUFFIX_RE = re.compile(r"\s*\|\s*Where Winds Meet.*$", re.IGNORECASE)
 _BBCODE_IMG_RE = re.compile(r"\[img\b[^\]]*\].*?\[/img\]", re.IGNORECASE | re.DOTALL)
-_BBCODE_TAG_RE = re.compile(
-    r"\[/?(?:p|b|i|u|h[1-6]|url|img|list|quote|code|spoiler|strike|table|tr|td|th|\*)(?:=[^\]]*|\s+[^\]]*)?\]",
-    re.IGNORECASE,
-)
-_HTML_TAG_RE = re.compile(
-    r"</?(?:p|br|div|span|ul|ol|li|h[1-6]|a|strong|em|b|i|img|table|tr|td|script|style)\b[^>]*>",
-    re.IGNORECASE,
-)
+_BBCODE_TAG_RE = re.compile(r"\[/?(?:p|b|i|u|h[1-6]|url|img|list|quote|code|spoiler|strike|table|tr|td|th|\*)(?:=[^\]]*|\s+[^\]]*)?\]", re.I)
+_HTML_TAG_RE = re.compile(r"</?(?:p|br|div|span|ul|ol|li|h[1-6]|a|strong|em|b|i|img|table|tr|td|script|style)\b[^>]*>", re.I)
 _WHITESPACE_RE = re.compile(r"\s+")
 _OFFICIAL_HOST = "wherewindsmeetgame.com"
 _STEAM_FEED = "steam_community_announcements"
@@ -110,6 +104,15 @@ def _unix_to_iso_date(ts: object) -> str | None:
     return None
 
 
+def _has_patchnotes_tag(entry: dict) -> bool:
+    tags = entry.get("tags")
+    return isinstance(tags, list) and any(isinstance(t, str) and t.strip().lower() == "patchnotes" for t in tags)
+
+
+def _is_newer_date(candidate: str | None, current: str | None) -> bool:
+    return bool(candidate and (not current or candidate > current))
+
+
 def steam_raw_patches(api_json: dict) -> list[RawPatch]:
     """Extract official Steam announcement patch notes from ISteamNews JSON."""
     items = (api_json.get("appnews") or {}).get("newsitems") if isinstance(api_json, dict) else None
@@ -121,16 +124,10 @@ def steam_raw_patches(api_json: dict) -> list[RawPatch]:
             continue
         title = _clean_text(str(entry.get("title") or ""))
         gid = str(entry.get("gid") or "").strip()
-        if not gid or not _STEAM_TITLE_RE.search(title):
+        if not gid or not (_has_patchnotes_tag(entry) or _STEAM_TITLE_RE.search(title)):
             continue
-        patches.append(
-            RawPatch(
-                url=f"https://store.steampowered.com/news/app/{STEAM_APP_ID}/view/{gid}",
-                title=title,
-                text=_clean_steam_contents(entry.get("contents")),
-                published_at=_unix_to_iso_date(entry.get("date")),
-            )
-        )
+        url = f"https://store.steampowered.com/news/app/{STEAM_APP_ID}/view/{gid}"
+        patches.append(RawPatch(url, title, _clean_steam_contents(entry.get("contents")), _unix_to_iso_date(entry.get("date"))))
     return patches
 
 
@@ -189,5 +186,11 @@ def collect() -> tuple[RawPatch | None, list[TierResult]]:
             return False, "empty patch text"
         return True, f"{len(payload.text)} chars"
 
-    tiers = [("html", tier_html), ("dynamic", tier_dynamic), ("steam", tier_steam)]
-    return run_tiers("wherewindsmeetgame.com", tiers, validator)
+    official_raw, official_results = run_tiers("wherewindsmeetgame.com", [("html", tier_html), ("dynamic", tier_dynamic)], validator)
+    steam_raw, steam_results = run_tiers("store.steampowered.com", [("steam", tier_steam)], validator)
+    results = official_results + steam_results
+    if official_raw is None:
+        return steam_raw, results
+    if steam_raw is not None and _is_newer_date(steam_raw.published_at, official_raw.published_at):
+        return steam_raw, results
+    return official_raw, results

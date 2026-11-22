@@ -100,7 +100,8 @@ def test_steam_filters_non_patch_posts():
 def test_steam_raw_patches_real_fixture_strips_bbcode():
     payload = json.loads((FIXTURES / "steam_news.json").read_text(encoding="utf-8"))
     patches = steam_raw_patches(payload)
-    assert len(patches) == 8
+    assert len(patches) == 9
+    assert any(p.url.endswith("/1849192144183200") for p in patches)
     assert all(p.url.startswith(f"https://store.steampowered.com/news/app/{STEAM_APP_ID}/view/") for p in patches)
     v23 = next(p for p in patches if p.url.endswith("/1847920302233930"))
     assert "[p]" not in v23.text and "[Autumn Eve Whimsy]" in v23.text
@@ -122,11 +123,11 @@ def test_collect_uses_official_html_first(monkeypatch):
 
     monkeypatch.setattr("crawler.sources.official_patch.Fetcher.get", fake_get)
     monkeypatch.setattr("crawler.sources.official_patch.StealthyFetcher.fetch", _DOWN)
-    monkeypatch.setattr("crawler.sources.official_patch.requests.get", _FORBIDDEN_STEAM)
+    monkeypatch.setattr("crawler.sources.official_patch.requests.get", _DOWN)
 
     raw, results = collect()
     assert isinstance(raw, RawPatch) and raw.url == _OFFICIAL_PATCH_URL
-    assert [(r.tier, r.result) for r in results] == [("html", "ok")]
+    assert [(r.tier, r.result) for r in results] == [("html", "ok"), ("steam", "error")]
     assert any(adaptive and auto_save for _, adaptive, auto_save in save_calls)
 
 
@@ -145,11 +146,11 @@ def test_collect_falls_back_to_dynamic_before_steam(monkeypatch):
         lambda url, **kw: _FakeResponse(403, "<title>Just a moment...</title>", url=url),
     )
     monkeypatch.setattr("crawler.sources.official_patch.StealthyFetcher.fetch", fake_stealth)
-    monkeypatch.setattr("crawler.sources.official_patch.requests.get", _FORBIDDEN_STEAM)
+    monkeypatch.setattr("crawler.sources.official_patch.requests.get", _DOWN)
 
     raw, results = collect()
     assert isinstance(raw, RawPatch) and raw.url == _OFFICIAL_PATCH_URL
-    assert [(r.tier, r.result) for r in results] == [("html", "blocked"), ("dynamic", "ok")]
+    assert [(r.tier, r.result) for r in results] == [("html", "blocked"), ("dynamic", "ok"), ("steam", "error")]
     assert len(stealth_calls) == 2
     assert all(kw.get("network_idle") is True and "solve_cloudflare" not in kw for _, kw in stealth_calls)
     assert "selector_config" in stealth_calls[0][1]
@@ -175,7 +176,7 @@ def test_collect_falls_back_to_steam_only_when_official_fails(monkeypatch):
 
     raw, results = collect()
     assert isinstance(raw, RawPatch)
-    assert raw.url == "https://store.steampowered.com/news/app/3564740/view/1847920302233930"
+    assert raw.url == "https://store.steampowered.com/news/app/3564740/view/1849192144183200"
     assert [(r.tier, r.result) for r in results] == [("html", "blocked"), ("dynamic", "empty"), ("steam", "ok")]
     assert steam_calls[0][0] == STEAM_NEWS_API and steam_calls[0][1]["params"]["appid"] == STEAM_APP_ID
 
@@ -187,7 +188,7 @@ def test_collect_falls_back_to_steam_only_when_official_fails(monkeypatch):
     )
     monkeypatch.setattr("crawler.sources.official_patch.StealthyFetcher.fetch", _DOWN)
     raw2, results2 = collect()
-    assert raw2 is not None and raw2.url.endswith("/1847920302233930")
+    assert raw2 is not None and raw2.url.endswith("/1849192144183200")
     assert [(r.tier, r.result) for r in results2] == [("html", "error"), ("dynamic", "error"), ("steam", "ok")]
 
     monkeypatch.setattr("crawler.sources.official_patch.Fetcher.get", _DOWN)
