@@ -14,6 +14,9 @@ OFFICIAL_DOMAINS = ("wherewindsmeetgame.com", "store.steampowered.com")
 
 STALE_HOURS = 24
 SHRINK_RATIO = 0.5
+MAX_PATCH_TITLE_LEN = 180
+MAX_PATCH_SUMMARY_LEN = 1200
+DEFAULT_PATCH_SOURCE_TITLE = "Ghi chú bản vá chính thức"
 GEMINI_MODELS = ("gemini-3.5-flash-lite", "gemini-3.1-flash-lite")
 
 SCHEMA_VERSION = 1

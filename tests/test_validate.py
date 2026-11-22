@@ -59,3 +59,28 @@ def test_valid_patch_accepted():
         "summary": "Summary", "sources": [{"title": "Official", "url": "https://www.wherewindsmeetgame.com/news/p23.html"}]
     }, {"version": "2.2"})
     assert ok
+
+
+def test_patch_title_over_180_rejected():
+    ok, _ = validate_patch({
+        "version": "2.3", "releaseDate": "2026-11-20", "title": "A" * 181,
+        "summary": "Summary", "sources": [{"title": "Official", "url": "https://www.wherewindsmeetgame.com/news/p23.html"}]
+    }, None)
+    assert not ok
+
+
+def test_patch_summary_over_1200_rejected():
+    ok, _ = validate_patch({
+        "version": "2.3", "releaseDate": "2026-11-20", "title": "Patch 2.3",
+        "summary": "S" * 1201, "sources": [{"title": "Official", "url": "https://www.wherewindsmeetgame.com/news/p23.html"}]
+    }, None)
+    assert not ok
+
+
+def test_patch_source_empty_title_rejected():
+    for empty_title in ("", "   ", None):
+        ok, _ = validate_patch({
+            "version": "2.3", "releaseDate": "2026-11-20", "title": "Patch 2.3",
+            "summary": "Summary", "sources": [{"title": empty_title, "url": "https://www.wherewindsmeetgame.com/news/p23.html"}]
+        }, None)
+        assert not ok

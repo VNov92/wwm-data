@@ -4,7 +4,12 @@ from datetime import date
 import re
 from urllib.parse import urlparse
 
-from crawler.constants import OFFICIAL_DOMAINS, SHRINK_RATIO
+from crawler.constants import (
+    MAX_PATCH_SUMMARY_LEN,
+    MAX_PATCH_TITLE_LEN,
+    OFFICIAL_DOMAINS,
+    SHRINK_RATIO,
+)
 
 _VERSION_RE = re.compile(r"[0-9]+\.[0-9]+(?:\.[0-9]+)?")
 _CODE_RE = re.compile(r"[A-Z0-9]{4,24}")
@@ -39,6 +44,18 @@ def _is_official_https_url(url: object) -> bool:
     return any(
         host == domain or host.endswith(f".{domain}")
         for domain in OFFICIAL_DOMAINS
+    )
+
+
+def _is_valid_official_source(src: object) -> bool:
+    """Return True if src is a dict with a non-empty title and official HTTPS URL."""
+    if not isinstance(src, dict):
+        return False
+    src_title = src.get("title")
+    return (
+        isinstance(src_title, str)
+        and bool(src_title.strip())
+        and _is_official_https_url(src.get("url"))
     )
 
 
@@ -92,17 +109,16 @@ def validate_patch(patch: dict, prev: dict | None) -> tuple[bool, str]:
     except ValueError:
         return False, f"invalid calendar releaseDate: {release_date!r}"
 
-    for field in ("title", "summary"):
+    for field, max_len in (("title", MAX_PATCH_TITLE_LEN), ("summary", MAX_PATCH_SUMMARY_LEN)):
         val = patch.get(field)
         if not isinstance(val, str) or not val.strip():
             return False, f"missing or empty {field}"
+        if len(val.strip()) > max_len:
+            return False, f"{field} exceeds {max_len} chars"
 
     sources = patch.get("sources")
-    if not isinstance(sources, list) or not any(
-        isinstance(src, dict) and _is_official_https_url(src.get("url"))
-        for src in sources
-    ):
-        return False, "patch requires at least one official https source"
+    if not isinstance(sources, list) or not any(_is_valid_official_source(src) for src in sources):
+        return False, "patch requires at least one official https source with title"
 
     if isinstance(prev, dict) and isinstance(prev.get("version"), str):
         prev_ver = parse_version(prev["version"])

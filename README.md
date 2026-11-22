@@ -72,7 +72,7 @@ $env:GEMINI_API_KEY="your-gemini-api-key"
 .venv\Scripts\python -m crawler.main
 ```
 
-Lưu ý: Tệp `data/adaptive.db*` dùng cho bộ nhớ thích ứng cục bộ và đã được loại trừ trong `.gitignore`.
+Lưu ý: Tệp `data/adaptive.db` được theo dõi và commit cùng `data/codes.json`, `data/patch.json` để GitHub Actions giữ lại dấu vết DOM thích ứng giữa các lần chạy; các tệp tạm SQLite (`data/adaptive.db-wal`, `data/adaptive.db-shm`, `data/adaptive.db-journal`) được loại trừ trong `.gitignore`.
 
 ---
 

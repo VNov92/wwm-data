@@ -145,3 +145,38 @@ def test_translate_raises_when_all_models_fail(monkeypatch):
     )
     with pytest.raises(RuntimeError):
         translate_patch(RAW, "fake-key")
+
+
+def test_translate_falls_back_when_raw_title_empty(monkeypatch):
+    def fake_post(*args, **kwargs):
+        payload = {
+            "version": "2.3",
+            "releaseDate": "2026-11-22",
+            "title": "Bản vá 2.3",
+            "summary": "Tóm tắt",
+            "highlights": [],
+            "sections": [],
+            "sources": [],
+        }
+        return _Resp(200, {"candidates": [{"content": {"parts": [{"text": json.dumps(payload)}]}}]})
+
+    monkeypatch.setattr("crawler.ai.requests.post", fake_post)
+    raw_blank = RawPatch(RAW.url, "   ", RAW.text, RAW.published_at)
+    out = translate_patch(raw_blank, "fake-key")
+    assert out["sources"] == [{"title": "Bản vá 2.3", "url": RAW.url}]
+
+    def fake_post_empty_title(*args, **kwargs):
+        payload = {
+            "version": "2.3",
+            "releaseDate": "2026-11-22",
+            "title": " ",
+            "summary": "Tóm tắt",
+            "highlights": [],
+            "sections": [],
+            "sources": [],
+        }
+        return _Resp(200, {"candidates": [{"content": {"parts": [{"text": json.dumps(payload)}]}}]})
+
+    monkeypatch.setattr("crawler.ai.requests.post", fake_post_empty_title)
+    out_default = translate_patch(raw_blank, "fake-key")
+    assert out_default["sources"] == [{"title": "Ghi chú bản vá chính thức", "url": RAW.url}]

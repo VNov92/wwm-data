@@ -1,4 +1,6 @@
 .venv/
 __pycache__/
 .pytest_cache/
-data/adaptive.db*
+data/adaptive.db-wal
+data/adaptive.db-shm
+data/adaptive.db-journal

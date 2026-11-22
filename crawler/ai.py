@@ -5,7 +5,7 @@ import re
 
 import requests
 
-from crawler.constants import GEMINI_MODELS
+from crawler.constants import DEFAULT_PATCH_SOURCE_TITLE, GEMINI_MODELS
 from crawler.models import RawPatch
 
 _GEMINI_ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
@@ -122,7 +122,7 @@ def _build_patch_prompt(raw: RawPatch) -> str:
     return (
         "Bạn là biên tập viên theo dõi bản cập nhật Where Winds Meet.\n"
         f"Dưới đây là thông báo cập nhật chính thức ({raw.url}):\n"
-        f"Tiêu đề: {raw.title or 'Ghi chú bản vá chính thức'}\n"
+        f"Tiêu đề: {raw.title.strip() or DEFAULT_PATCH_SOURCE_TITLE}\n"
         f"Ngày đăng: {raw.published_at or 'chưa rõ'}\n"
         f"Nội dung: {raw.text[:_MAX_INPUT_CHARS]}\n\n"
         "Quy tắc:\n"
@@ -148,14 +148,17 @@ def _normalize_patch(data: dict, raw: RawPatch) -> dict:
         if sec_title and items:
             sections.append({"title": sec_title, "items": items})
 
+    title = str(data.get("title") or "").strip()
+    source_title = raw.title.strip() or title or DEFAULT_PATCH_SOURCE_TITLE
+
     return {
         "version": str(data.get("version") or "").strip(),
         "releaseDate": release_date,
-        "title": str(data.get("title") or "").strip(),
+        "title": title,
         "summary": str(data.get("summary") or "").strip(),
         "highlights": highlights,
         "sections": sections,
-        "sources": [{"title": raw.title, "url": raw.url}],
+        "sources": [{"title": source_title, "url": raw.url}],
     }
 
 
