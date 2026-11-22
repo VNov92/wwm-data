@@ -2,8 +2,8 @@
   "schema_version": 1,
   "health": {
     "status": "ok",
-    "last_attempt_at": "2026-11-22T03:40:36Z",
-    "last_success_at": "2026-11-22T03:40:36Z",
+    "last_attempt_at": "2026-11-22T04:13:04Z",
+    "last_success_at": "2026-11-22T04:13:04Z",
     "sources": [
       {
         "name": "wherewindsmeetgame.com",
@@ -12,57 +12,62 @@
         "message": "3849 chars"
       },
       {
+        "name": "store.steampowered.com",
+        "tier": "steam",
+        "result": "ok",
+        "message": "12000 chars"
+      },
+      {
         "name": "gemini",
         "tier": "translate",
         "result": "ok",
-        "message": "v2.3"
+        "message": "v2.4"
       }
     ]
   },
   "patch": {
-    "version": "2.3",
-    "releaseDate": "2026-10-30",
-    "title": "Bản Cập Nhật Version 2.3: Tối Ưu Hóa Và Sửa Lỗi",
-    "summary": "Bản cập nhật ngày 29 tháng 10 của Where Winds Meet mang đến các bản vá lỗi quan trọng cho trang phục, vật phẩm, nhiệm vụ và hệ thống Bang Hội. Nhà phát triển cũng điều chỉnh thời gian kết thúc và giới hạn kinh nghiệm của Battle Pass, đồng thời hỗ trợ khu vực Qingzhou mới.",
+    "version": "2.4",
+    "releaseDate": "2026-11-12",
+    "title": "Bản cập nhật điều chỉnh cân bằng Version 2.4",
+    "summary": "Bản cập nhật phiên bản 2.4 tập trung vào việc tối ưu hóa tiến trình người chơi như khôi phục trang bị, chuyển đổi bộ trang bị và cải thiện tỷ lệ thuộc tính. Đồng thời, các nhánh võ học và nội công cũng được điều chỉnh cân bằng dựa trên dữ liệu thực tế và phản hồi của người chơi.",
     "highlights": [
-      "Sửa lỗi không thể trang bị bộ phụ kiện [Autumn Eve Whimsy] và lỗi mất tích trong Cửa hàng.",
-      "Khắc phục sự cố xung đột mã nguồn khiến Chiến Trường Bang Hội mở trước lịch trình ở một số khu vực.",
-      "Điều chỉnh thời gian kết thúc của Battle Pass [Scarlet Whispers] và thời gian đặt lại giới hạn EXP hàng tuần.",
-      "Thêm hỗ trợ cho khu vực [Qingzhou] và cho phép mua vật phẩm tại [Zhao Laoliu’s General Store]."
+      "Thêm tính năng khôi phục trang bị đã điều chế và cho phép chuyển đổi tự do giữa các bộ trang bị đã mở khóa.",
+      "Tối ưu hóa tỷ lệ rớt chỉ mục ban đầu và cơ chế luyện trang bị bậc 100.",
+      "Giảm thời gian hồi chiêu đặt lại luyện trang bị từ 5 ngày xuống còn 3 ngày.",
+      "Cân chỉnh và làm mới cơ chế, hiệu ứng của nhiều nhánh võ học và nội công khác nhau."
     ],
     "sections": [
       {
-        "title": "Sửa lỗi và Tối ưu hóa chung",
+        "title": "Tối ưu hóa tiến trình",
         "items": [
-          "Đã sửa lỗi phụ kiện [Autumn Eve Whimsy] không thể trang bị sau khi mua và làm tủ đồ hoạt động bất thường.",
-          "Đã sửa lỗi thiếu phụ kiện [Autumn Eve Whimsy] trong Cửa hàng đối với một số người chơi.",
-          "Đã sửa lỗi hiển thị kiểu tóc [Pristine Grace] bị sai khi trang bị.",
-          "Đã tối ưu hóa điều kiện kích hoạt cho một số Kỹ năng Bang Hội.",
-          "Đã sửa lỗi không lưu được cài đặt Kho Báu Thư Pháp cho Kỹ Năng Thần Bí [Inkwash Splendor].",
-          "Đã sửa lỗi trên PS5 khiến người chơi không thể hoàn thành đoạn hội thoại trong Nhiệm vụ Chiến dịch [Mount Tai Blizzard]."
+          "Thêm tính năng khôi phục trang bị đã điều chế để giảm thiểu trải nghiệm tiêu cực do thao tác nhầm.",
+          "Thêm tính năng chuyển đổi bộ trang bị đã mở khóa miễn phí giúp tăng độ linh hoạt.",
+          "Tối ưu hóa trải nghiệm nhận trang bị cơ bản bậc 100 với tỷ lệ rớt chỉ số vàng cao hơn.",
+          "Tối ưu hóa việc luyện và luyện lại trang bị bằng cách tăng tỷ lệ xuất hiện các chỉ số hiếm quan trọng.",
+          "Giảm thời gian hồi chiêu đặt lại và chỉnh sửa luyện trang bị từ 5 ngày xuống 3 ngày.",
+          "Tối ưu hóa trải nghiệm xây dựng chiến đấu để lưu và chuyển đổi đồng thời các cài đặt trang bị, kỹ năng và linh khí.",
+          "Tối ưu hóa trải nghiệm bắt kịp cấp độ nhân vật từ cấp 96 đến 99 với tốc độ nhận kinh nghiệm tăng 400%.",
+          "Chuẩn hóa yêu cầu thuộc tính khát vọng của trang bị dưới bậc 100 xuống còn 5 điểm để hạ thấp ngưỡng trang bị."
         ]
       },
       {
-        "title": "Cập nhật Battle Pass và Khu vực",
+        "title": "Tối ưu hóa trải nghiệm chung",
         "items": [
-          "Thời gian kết thúc Battle Pass [Scarlet Whispers] được điều chỉnh từ ngày 14 tháng 11 sang ngày 13 tháng 11 năm 2026.",
-          "Thời gian đặt lại EXP hàng tuần của Battle Pass được đổi thành thứ Hai hàng tuần lúc 05:00:00 (UTC+8) và đền bù EXP cho người chơi.",
-          "Thêm hỗ trợ cho khu vực [Qingzhou], người chơi có thể mua vật phẩm tại [Zhao Laoliu’s General Store]."
+          "Điều chỉnh hiệu ứng cơ bản của nội công Duyên Mùa và hỗ trợ luyện tập cho nhiều chế độ chiến đấu tại Sân Huấn Luyện Giang Hồ."
         ]
       },
       {
-        "title": "Sửa lỗi Nhiệm vụ và Phần thưởng",
+        "title": "Điều chỉnh cân bằng Võ học và Nội công",
         "items": [
-          "Đã sửa lỗi một số phần thưởng thư không thể nhận lại dẫn đến việc không thể xóa thư.",
-          "Đã sửa lỗi một số nhiệm vụ Gia Viên Qinghe không thể hoàn thành.",
-          "Đã sửa lỗi các danh hiệu [Blooming Rebuttal], [Unrivaled Cardmaster] và [Cast the Cosmos] không thể kích hoạt hoặc sử dụng sau khi nhận."
+          "Cân chỉnh các võ học thuộc hệ Tiếng Chuông, Ràng Buộc Lụa, Chẻ Đá và Chặt Tre nhằm tối ưu hóa sát thương, hiệu ứng khống chế và tương tác chiêu thức.",
+          "Cập nhật hiệu ứng của các nội công tương ứng để phù hợp với các thay đổi về thời gian duy trì và khả năng xuyên thấu."
         ]
       }
     ],
     "sources": [
       {
-        "title": "Version 2.3 Patch Notes: Optimizations and Bug Fixes (October 29)",
-        "url": "https://www.wherewindsmeetgame.com/news/official/1029patchnotes.html"
+        "title": "Version 2.4 Path Balance Adjustment Announcement (November 13)",
+        "url": "https://store.steampowered.com/news/app/3564740/view/1849192144183200"
       }
     ]
   }
