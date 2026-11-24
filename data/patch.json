@@ -2,8 +2,8 @@
   "schema_version": 1,
   "health": {
     "status": "ok",
-    "last_attempt_at": "2026-11-23T00:09:52Z",
-    "last_success_at": "2026-11-23T00:09:52Z",
+    "last_attempt_at": "2026-11-24T04:16:27Z",
+    "last_success_at": "2026-11-24T04:16:27Z",
     "sources": [
       {
         "name": "wherewindsmeetgame.com",
