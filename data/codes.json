@@ -2,8 +2,8 @@
   "schema_version": 1,
   "health": {
     "status": "ok",
-    "last_attempt_at": "2026-11-24T04:16:27Z",
-    "last_success_at": "2026-11-24T04:16:27Z",
+    "last_attempt_at": "2026-11-25T03:00:09Z",
+    "last_success_at": "2026-11-25T03:00:09Z",
     "sources": [
       {
         "name": "codes.yar.gg",
@@ -14,6 +14,16 @@
     ]
   },
   "items": [
+    {
+      "code": "ANN3TEJXQDD",
+      "reward_text": null,
+      "added_at": "2026-11-24T16:53:32.724Z"
+    },
+    {
+      "code": "ANNKK3FCEEA",
+      "reward_text": null,
+      "added_at": "2026-11-24T12:45:58.599Z"
+    },
     {
       "code": "WWM26ANNIBASH",
       "reward_text": null,
