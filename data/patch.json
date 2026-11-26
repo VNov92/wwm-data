@@ -2,14 +2,20 @@
   "schema_version": 1,
   "health": {
     "status": "ok",
-    "last_attempt_at": "2026-11-25T03:00:09Z",
-    "last_success_at": "2026-11-25T03:00:09Z",
+    "last_attempt_at": "2026-11-26T02:08:16Z",
+    "last_success_at": "2026-11-26T02:08:16Z",
     "sources": [
       {
         "name": "wherewindsmeetgame.com",
         "tier": "html",
-        "result": "ok",
-        "message": "3849 chars"
+        "result": "error",
+        "message": "empty patch text"
+      },
+      {
+        "name": "wherewindsmeetgame.com",
+        "tier": "dynamic",
+        "result": "error",
+        "message": "empty patch text"
       },
       {
         "name": "store.steampowered.com",
