@@ -2,72 +2,63 @@
   "schema_version": 1,
   "health": {
     "status": "ok",
-    "last_attempt_at": "2026-11-27T02:07:16Z",
-    "last_success_at": "2026-11-27T02:07:16Z",
+    "last_attempt_at": "2026-11-28T01:52:20Z",
+    "last_success_at": "2026-11-28T01:52:20Z",
     "sources": [
       {
         "name": "wherewindsmeetgame.com",
         "tier": "html",
-        "result": "error",
-        "message": "empty patch text"
-      },
-      {
-        "name": "wherewindsmeetgame.com",
-        "tier": "dynamic",
-        "result": "error",
-        "message": "empty patch text"
+        "result": "ok",
+        "message": "897 chars"
       },
       {
         "name": "store.steampowered.com",
         "tier": "steam",
         "result": "ok",
-        "message": "12000 chars"
+        "message": "897 chars"
+      },
+      {
+        "name": "gemini",
+        "tier": "translate",
+        "result": "ok",
+        "message": "v2.4"
       }
     ]
   },
   "patch": {
     "version": "2.4",
-    "releaseDate": "2026-11-12",
-    "title": "Bản cập nhật điều chỉnh cân bằng Version 2.4",
-    "summary": "Bản cập nhật phiên bản 2.4 tập trung vào việc tối ưu hóa tiến trình người chơi như khôi phục trang bị, chuyển đổi bộ trang bị và cải thiện tỷ lệ thuộc tính. Đồng thời, các nhánh võ học và nội công cũng được điều chỉnh cân bằng dựa trên dữ liệu thực tế và phản hồi của người chơi.",
+    "releaseDate": "2026-11-27",
+    "title": "Bản cập nhật Version 2.4",
+    "summary": "Bản cập nhật ngày 27 tháng 11 năm 2026 tập trung khắc phục một số lỗi quan trọng liên quan đến trang phục, kỹ năng, tính năng trong thế giới mở và thiết bị di động. Ngoài ra, trò chơi cũng tiến hành điều chỉnh giá vật phẩm do biến động tỷ giá ngoại tệ.",
     "highlights": [
-      "Thêm tính năng khôi phục trang bị đã điều chế và cho phép chuyển đổi tự do giữa các bộ trang bị đã mở khóa.",
-      "Tối ưu hóa tỷ lệ rớt chỉ mục ban đầu và cơ chế luyện trang bị bậc 100.",
-      "Giảm thời gian hồi chiêu đặt lại luyện trang bị từ 5 ngày xuống còn 3 ngày.",
-      "Cân chỉnh và làm mới cơ chế, hiệu ứng của nhiều nhánh võ học và nội công khác nhau."
+      "Sửa lỗi hiệu ứng hình ảnh và khuôn mặt khi trang bị bộ trang phục Ebon Scales.",
+      "Khắc phục sự cố đóng băng hướng dẫn chiến thuật trên thiết bị di động.",
+      "Giải quyết lỗi các trò chơi cờ bàn trong thế giới mở không thể chơi được.",
+      "Điều chỉnh giá vật phẩm phù hợp với biến động tỷ giá ngoại tệ."
     ],
     "sections": [
       {
-        "title": "Tối ưu hóa tiến trình",
+        "title": "Sửa lỗi và tối ưu hóa",
         "items": [
-          "Thêm tính năng khôi phục trang bị đã điều chế để giảm thiểu trải nghiệm tiêu cực do thao tác nhầm.",
-          "Thêm tính năng chuyển đổi bộ trang bị đã mở khóa miễn phí giúp tăng độ linh hoạt.",
-          "Tối ưu hóa trải nghiệm nhận trang bị cơ bản bậc 100 với tỷ lệ rớt chỉ số vàng cao hơn.",
-          "Tối ưu hóa việc luyện và luyện lại trang bị bằng cách tăng tỷ lệ xuất hiện các chỉ số hiếm quan trọng.",
-          "Giảm thời gian hồi chiêu đặt lại và chỉnh sửa luyện trang bị từ 5 ngày xuống 3 ngày.",
-          "Tối ưu hóa trải nghiệm xây dựng chiến đấu để lưu và chuyển đổi đồng thời các cài đặt trang bị, kỹ năng và linh khí.",
-          "Tối ưu hóa trải nghiệm bắt kịp cấp độ nhân vật từ cấp 96 đến 99 với tốc độ nhận kinh nghiệm tăng 400%.",
-          "Chuẩn hóa yêu cầu thuộc tính khát vọng của trang bị dưới bậc 100 xuống còn 5 điểm để hạ thấp ngưỡng trang bị."
+          "Đã sửa lỗi hiệu ứng hình ảnh cổ tay của bộ trang phục [Ebon Scales] lặp lại bất thường khi trang bị.",
+          "Đã sửa lỗi khiến khuôn mặt nhân vật bị mờ trong hoạt cảnh chiến thắng của bộ trang phục [Ebon Scales].",
+          "Đã sửa lỗi Tài năng cơ bản không kích hoạt sau khi đạt Cấp độ 19 Chế độ Đơn.",
+          "Đã sửa lỗi hướng dẫn Chiến thuật Giang Hồ bị đóng băng trên thiết bị di động.",
+          "Đã sửa lỗi ngăn cản Đồ chơi [Embearor Throne] được sử dụng trong Căn cứ Bang hội.",
+          "Đã sửa lỗi cờ vua và các trò chơi trên bàn khác trong thế giới mở không thể chơi được."
         ]
       },
       {
-        "title": "Tối ưu hóa trải nghiệm chung",
+        "title": "Điều chỉnh giá cả",
         "items": [
-          "Điều chỉnh hiệu ứng cơ bản của nội công Duyên Mùa và hỗ trợ luyện tập cho nhiều chế độ chiến đấu tại Sân Huấn Luyện Giang Hồ."
-        ]
-      },
-      {
-        "title": "Điều chỉnh cân bằng Võ học và Nội công",
-        "items": [
-          "Cân chỉnh các võ học thuộc hệ Tiếng Chuông, Ràng Buộc Lụa, Chẻ Đá và Chặt Tre nhằm tối ưu hóa sát thương, hiệu ứng khống chế và tương tác chiêu thức.",
-          "Cập nhật hiệu ứng của các nội công tương ứng để phù hợp với các thay đổi về thời gian duy trì và khả năng xuyên thấu."
+          "Do biến động tỷ giá gần đây của đồng Bolivian Boliviano (BOB), chúng tôi sẽ điều chỉnh giá của một số mặt hàng trên các nền tảng nhất định cho phù hợp."
         ]
       }
     ],
     "sources": [
       {
-        "title": "Version 2.4 Path Balance Adjustment Announcement (November 13)",
-        "url": "https://store.steampowered.com/news/app/3564740/view/1849192144183200"
+        "title": "Version 2.4 Patch Notes: Optimizations and Bug Fixes (November 27)",
+        "url": "https://www.wherewindsmeetgame.com/news/official/1127patchnotes.html"
       }
     ]
   }
